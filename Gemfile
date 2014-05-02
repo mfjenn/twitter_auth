@@ -8,9 +8,13 @@ gem 'omniauth-twitter'
 gem 'rails', '4.1.0'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', group: :development
-gem 'pg', '~> 0.17.1', group: :production 
+gem 'pg', '~> 0.17.1', group: :production
+gem 'rails_12factor', group: :production  
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 4.0.3'
+gem 'bootstrap-sass', '~> 3.1.1'
+# gem 'sprockets-rails', '=2.0.0.backport1'
+# gem 'sprockets', '=2.2.2.backport2'
+# gem 'sass-rails', github: 'guilleiguaran/sass-rails', branch: 'backport'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .js.coffee assets and views
